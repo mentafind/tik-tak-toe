@@ -81,7 +81,7 @@ def ttt():
             print(win[1] + " wins!!")
         else:
             print_board(board_to_show)
-            code = input(turn + "'s Turn:")
+            code = input(turn + "'s Turn: ")
             if code == "reset":
                 board.clear()
                 board.append([".",".","."])
